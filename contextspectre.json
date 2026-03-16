@@ -1,0 +1,22 @@
+{
+    "version": "0.39.9",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ppiankov/contextspectre/releases/download/v0.39.9/contextspectre_0.39.9_windows_amd64.zip",
+            "bin": [
+                "contextspectre.exe"
+            ],
+            "hash": "e95bc39a1598e046aa068587b413fe129b6a6fa5d5e8c285f5295f94c93b481c"
+        },
+        "arm64": {
+            "url": "https://github.com/ppiankov/contextspectre/releases/download/v0.39.9/contextspectre_0.39.9_windows_arm64.zip",
+            "bin": [
+                "contextspectre.exe"
+            ],
+            "hash": "c4cee1e88a08a58181de922112c8c61b6a12dc27272e72f156f2b6821badafe8"
+        }
+    },
+    "homepage": "https://github.com/ppiankov/contextspectre",
+    "license": "MIT",
+    "description": "Claude Code conversation context manager"
+}
