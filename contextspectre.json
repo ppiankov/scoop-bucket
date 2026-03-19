@@ -1,19 +1,19 @@
 {
-    "version": "0.40.2",
+    "version": "0.40.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ppiankov/contextspectre/releases/download/v0.40.2/contextspectre_0.40.2_windows_amd64.zip",
+            "url": "https://github.com/ppiankov/contextspectre/releases/download/v0.40.3/contextspectre_0.40.3_windows_amd64.zip",
             "bin": [
                 "contextspectre.exe"
             ],
-            "hash": "0e82289b74965586c0579eeadcb656e5d3d02b14d45960bf07540b3d9f8281f5"
+            "hash": "fa527f1a2132c81558e4183713736f951eea6c5a3c8e825d3396b1b66b83e643"
         },
         "arm64": {
-            "url": "https://github.com/ppiankov/contextspectre/releases/download/v0.40.2/contextspectre_0.40.2_windows_arm64.zip",
+            "url": "https://github.com/ppiankov/contextspectre/releases/download/v0.40.3/contextspectre_0.40.3_windows_arm64.zip",
             "bin": [
                 "contextspectre.exe"
             ],
-            "hash": "64472ef7cdcb6568220240ede8fb75f77a4111a49f78c6081bf091bd3c679007"
+            "hash": "e2431a6a595aa44806f53a0e2c9455a448384e7049f6da3b6ac3f6458e296122"
         }
     },
     "homepage": "https://github.com/ppiankov/contextspectre",
