@@ -6,14 +6,14 @@
             "bin": [
                 "contextspectre.exe"
             ],
-            "hash": "ea748990de094311e352796a5b40cf853110e520117e8c1555e01f813bf73830"
+            "hash": "81977ae643aa370df127be31b65b6316a11c29ca4be350a1de685b7dbd45917f"
         },
         "arm64": {
             "url": "https://github.com/ppiankov/contextspectre/releases/download/v0.49.2/contextspectre_0.49.2_windows_arm64.zip",
             "bin": [
                 "contextspectre.exe"
             ],
-            "hash": "3903a21b0f2f1dc08e8300fd939da57da2e8a55e1b3d637656af25c254e148d6"
+            "hash": "5818811b1c2011ed29af260dc80ecf06cdb978a8f24925b7b9ebd2c33b82252e"
         }
     },
     "homepage": "https://github.com/ppiankov/contextspectre",
