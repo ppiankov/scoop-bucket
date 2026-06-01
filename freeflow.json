@@ -1,0 +1,25 @@
+{
+    "version": "0.3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ppiankov/freeflow-dist/releases/download/v0.3.0/freeflow_windows_amd64.zip",
+            "bin": [
+                "freeflow.exe"
+            ],
+            "hash": "a5d11051262114dc0e1e06e366373e4fd18b7e60287d2cf357d26f1210b8cb74"
+        },
+        "arm64": {
+            "url": "https://github.com/ppiankov/freeflow-dist/releases/download/v0.3.0/freeflow_windows_arm64.zip",
+            "bin": [
+                "freeflow.exe"
+            ],
+            "hash": "f37bef099ea3c1634ca19953b0d5a506169aec4bf4070cc529ca3f6e799d5243"
+        }
+    },
+    "homepage": "https://github.com/ppiankov/freeflow-dist",
+    "license": "MIT",
+    "description": "CLI intelligence layer for Freeflow task-tracker",
+    "post_install": [
+        "$skillShare = Join-Path (Split-Path $dir -Parent) 'share/freeflow'\nNew-Item -ItemType Directory -Force -Path $skillShare | Out-Null\nCopy-Item (Join-Path $dir 'SKILL.md') (Join-Path $skillShare 'SKILL.md') -Force\n"
+    ]
+}
