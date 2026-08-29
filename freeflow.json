@@ -1,19 +1,19 @@
 {
-    "version": "0.13.17",
+    "version": "0.13.18",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ppiankov/freeflow-dist/releases/download/v0.13.17/freeflow_windows_amd64.zip",
+            "url": "https://github.com/ppiankov/freeflow-dist/releases/download/v0.13.18/freeflow_windows_amd64.zip",
             "bin": [
                 "freeflow.exe"
             ],
-            "hash": "e6fdfc25ebcf13797a20e6b2c761afaa1ed3dbc05f64d871ebb696c7f99b6985"
+            "hash": "8f71b9170d724c1d519d8d9295aa9c71acaa8fb81b3c1c1485f60f8cb90340b7"
         },
         "arm64": {
-            "url": "https://github.com/ppiankov/freeflow-dist/releases/download/v0.13.17/freeflow_windows_arm64.zip",
+            "url": "https://github.com/ppiankov/freeflow-dist/releases/download/v0.13.18/freeflow_windows_arm64.zip",
             "bin": [
                 "freeflow.exe"
             ],
-            "hash": "7c4471fc5990286912c60f091d57de2d3d987fdb91e9bf5d11da5245f6a19cb9"
+            "hash": "986ee99e6d1885a4a05ff7375f1a7696b3a59f8189cf7ed1711faf3954e102c9"
         }
     },
     "homepage": "https://github.com/ppiankov/freeflow-dist",
